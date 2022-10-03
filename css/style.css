@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #2a2a2a;
+}
+
+.text {
+  padding: 20px;
+  background-color: #fff;
+  border: 2px dashed #2a2a2a;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .container-dog {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 400px;
+    background-color: #fff;
+    border: 2px dashed #2a2a2a;
+  }
+  
+  .dog-img {
+    margin-bottom: 30px;
+    border: 2px dashed tomato;
+  }
+  
+  .title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    border: 2px dashed teal;
+  }
+  
+  .text-padding {
+    width: 400px;
+    height: 270px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    border: 2px dashed blue;
+  }
+
+  .img-cat{
+    margin: 150px;
+  }
+
+   .container {
+       display: block;
+       /* padding-top: 40px; */
+       /* overflow: hidden; */
+       margin: 150px auto;
+       /* border: 1px solid; */
+       width: 400px;
+       height: 400px;
+       background-color: darkorange;
+     }
+     
+     .container-box {
+       display: block;
+       margin: 0 auto;
+       border: 1px solid green;
+       width: 200px;
+       height: 200px;
+       margin-top: 40px;
+       background-color: greenyellow;
+     }
