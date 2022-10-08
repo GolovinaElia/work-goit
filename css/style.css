@@ -76,4 +76,89 @@ img {
        background-color: greenyellow;
      }
 
-     
+ .parent {
+   box-sizing: border-box;
+   width: 200px;
+   min-height: 150px;
+   background-color: teal;
+   padding: 1rem;
+ }
+
+ .child {
+   height: 150px;
+   background-color: goldenrod;
+ }
+
+.c-badge {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  flex: 0 0 60px;
+  border-radius: 50%;
+  background: #286be8;
+  margin-right: 0.5rem;
+}
+
+.c-icon {
+  fill: #fff;
+  width: 28px;
+  height: 28px;
+}
+
+/* Page Setup */
+
+body {
+  padding: 1rem;
+  font-family: 'Arial';
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.content,
+.content1,
+.content2 {
+  color: #fff;
+  font: 100 24px/100px sans-serif;
+  height: 150px;
+  text-align: center;
+}
+
+.content div,
+.content1 div,
+.content2 div {
+  height: 50%;
+  width: 50%;
+}
+
+.red {
+  background: orangered;
+}
+
+.green {
+  background: yellowgreen;
+}
+
+.blue {
+  background: steelblue;
+}
+
+/* Flexbox Styles */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content1 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.content2 {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
