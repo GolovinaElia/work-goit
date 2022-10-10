@@ -162,3 +162,25 @@ h2 {
   display: flex;
   flex-wrap: wrap-reverse;
 }
+
+/* hover */
+ .photo {
+   display: inline-block;
+   position: relative;
+ }
+
+ .photo img {
+   display: block;
+ }
+
+ .photo:hover::after {
+   content: attr(data-title);
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: rgba(209, 155, 111, 0.8);
+   font-size: 11px;
+   padding: 5px;
+   text-align: center;
+ }
